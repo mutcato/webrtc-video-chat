@@ -114,4 +114,4 @@ let leaveChannel = async () => {
 
 window.addEventListener('beforeunload', leaveChannel);
 
-(async()=>{await init()})()
+init()
